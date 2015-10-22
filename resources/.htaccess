@@ -1,0 +1,6 @@
+<Files mentalmodeler.exe>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /home/mentalmodeler/mentalmodeler.com/resources/.htpasswd
+Require valid-user
+</Files>
