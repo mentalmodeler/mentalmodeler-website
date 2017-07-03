@@ -1,7 +1,7 @@
 <?php
     $autoResponse = true; //if set to true auto response email will be sent, if you don't want autoresponse set it to false
     $autoResponseSubject = "Mental Modeler password request"; 
-    $autoResponseMessage = "Thank you for your interest in Mental Modeler.\r\n\r\nThe download credentials are:\r\n\r\nUsername: mentalmodeler\r\nPassword: mentalmodeler\r\n\r\nhttp://www.mentalmodeler.com/resources/mentalmodeler.exe\r\n\r\nPlease note, this is an auto-generated email. If you need to contact us, please use the email: stevenallangray@mentalmodeler.com";
+    $autoResponseMessage = "Thank you for your interest in Mental Modeler.\r\n\r\nThe download credentials are:\r\n\r\nUsername: mentalmodeler\r\nPassword: mentalmodeler\r\n\r\nPlease note, this is an auto-generated email. If you need to contact us, please use the email: stevenallangray@mentalmodeler.com";
     $autoResponseHeaders = "From: passwordrequest@mentalmodeler.com";  
     
     //we need to get our variables first

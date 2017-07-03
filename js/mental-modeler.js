@@ -42,6 +42,13 @@ $(document).ready(function() {
             return true;
     });    
    
+    $('#video-callout').on('click', function() {
+        $root.animate({
+            scrollTop: $('#what-is-mm-video').offset().top - $("#headerContainer").height() - 20
+        }, 500, function () {
+            window.location.hash = 'resources';
+        });
+    })
     $('#send_message').on( "click", {mm: mm}, function(e){
         var mm = e.data.mm;
         e.preventDefault();
